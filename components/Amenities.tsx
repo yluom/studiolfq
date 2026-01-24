@@ -110,7 +110,7 @@ export default function Amenities() {
   return (
     <section
       ref={sectionRef}
-      id="amenities"
+      id="equipements"
       className="section-padding bg-white relative overflow-hidden"
     >
       {/* Background decoration */}

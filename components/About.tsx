@@ -27,7 +27,7 @@ export default function About() {
   return (
     <section
       ref={sectionRef}
-      id="about"
+      id="a-propos"
       className="section-padding bg-[#fafafa] relative overflow-hidden"
     >
       {/* Decorative background elements */}

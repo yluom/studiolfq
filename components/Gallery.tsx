@@ -72,7 +72,7 @@ export default function Gallery() {
     <>
       <section
         ref={sectionRef}
-        id="gallery"
+        id="galerie"
         className="section-padding bg-[#fdf6e9] relative overflow-hidden"
       >
         {/* Decorative elements */}

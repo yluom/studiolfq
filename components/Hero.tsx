@@ -33,10 +33,10 @@ export default function Hero() {
           Studio La Franqui
         </span>
         <div className="hidden md:flex gap-8 text-white/90 text-sm font-light tracking-wider uppercase">
-          <a href="#about" className="hover:text-[#f4a460] transition-colors">À propos</a>
-          <a href="#gallery" className="hover:text-[#f4a460] transition-colors">Galerie</a>
-          <a href="#amenities" className="hover:text-[#f4a460] transition-colors">Équipements</a>
-          <a href="#location" className="hover:text-[#f4a460] transition-colors">Localisation</a>
+          <a href="#a-propos" className="hover:text-[#f4a460] transition-colors">À propos</a>
+          <a href="#galerie" className="hover:text-[#f4a460] transition-colors">Galerie</a>
+          <a href="#equipements" className="hover:text-[#f4a460] transition-colors">Équipements</a>
+          <a href="#localisation" className="hover:text-[#f4a460] transition-colors">Localisation</a>
         </div>
       </nav>
 
@@ -99,7 +99,7 @@ export default function Hero() {
 
         {/* CTA Button */}
         <a
-          href="#about"
+          href="#a-propos"
           className={`mt-12 group flex items-center gap-2 text-white/80 text-sm tracking-wider uppercase hover:text-[#f4a460] transition-all duration-1000 delay-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
         >
           <span>Découvrir</span>

@@ -65,7 +65,7 @@ export default function Info() {
   return (
     <section
       ref={sectionRef}
-      id="info"
+      id="infos"
       className="section-padding bg-[#fdf6e9] relative overflow-hidden"
     >
       {/* Decorative elements */}

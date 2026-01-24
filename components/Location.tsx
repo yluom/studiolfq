@@ -44,7 +44,7 @@ export default function Location() {
   return (
     <section
       ref={sectionRef}
-      id="location"
+      id="localisation"
       className="section-padding bg-[#1e3a5f] relative overflow-hidden"
     >
       {/* Background decorations */}
