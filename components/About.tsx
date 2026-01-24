@@ -83,7 +83,7 @@ export default function About() {
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Niché au cœur d&apos;une résidence paisible, ce studio de <strong>30m²</strong> vous offre
-              une vue imprenable sur la mer et un accès direct à l&apos;une des plus belles
+              une petite vue mer et un accès direct à l&apos;une des plus belles
               plages de la côte Audoise. Profitez du <strong>balcon ombragé par les pins</strong> pour
               des moments de détente uniques, bercé par le chant des cigales.
             </p>

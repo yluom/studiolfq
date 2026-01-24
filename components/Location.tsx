@@ -16,7 +16,7 @@ const highlights = [
   {
     distance: 'Été',
     label: 'Marché',
-    description: 'Marché provençal tous les matins en saison',
+    description: 'Marché provençal les lundi et jeudi en saison',
   },
 ];
 
