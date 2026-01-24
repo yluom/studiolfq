@@ -53,10 +53,10 @@ export default function Hero() {
         {/* Main Title */}
         <h1
           className={`font-display text-4xl md:text-6xl lg:text-7xl text-white leading-tight max-w-4xl transition-all duration-1000 delay-500 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-          style={{ fontWeight: 300 }}
+          style={{ fontWeight: 300, textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.6), 0 8px 40px rgba(0, 0, 0, 0.4)' }}
         >
           Un paradis entre
-          <span className="block italic text-[#f5deb3]">plage et nature</span>
+          <span className="block italic text-[#f5deb3]" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.9), 0 4px 20px rgba(0, 0, 0, 0.7), 0 8px 40px rgba(0, 0, 0, 0.5)' }}>plage et nature</span>
         </h1>
 
         {/* Subtitle */}
@@ -67,13 +67,13 @@ export default function Hero() {
         {/* Rating */}
         <div className={`mt-8 flex items-center gap-3 transition-all duration-1000 delay-900 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="flex gap-1">
-            {[...Array(5)].map((_, i) => (
+            {[...Array(4)].map((_, i) => (
               <svg
                 key={i}
                 width="18"
                 height="18"
                 viewBox="0 0 24 24"
-                fill={i < 4 ? '#f4a460' : 'none'}
+                fill="#f4a460"
                 stroke="#f4a460"
                 strokeWidth="2"
               >

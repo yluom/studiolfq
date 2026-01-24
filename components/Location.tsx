@@ -148,7 +148,12 @@ export default function Location() {
             </div>
 
             {/* Address card */}
-            <div className="absolute -bottom-6 left-6 right-6 bg-white rounded-xl p-4 shadow-xl">
+            <a
+              href="https://google.fr/maps/place/6+Av.+de+la+M%C3%A9diterran%C3%A9e,+11370+Leucate/@42.93228,3.0352323,19z/data=!4m6!3m5!1s0x12b05972c0a9d6c9:0x4ae51af525f54cbc!8m2!3d42.932155!4d3.036421!16s%2Fg%2F11c2724pt9?entry=ttu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute -bottom-6 left-6 right-6 bg-white rounded-xl p-4 shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 block"
+            >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#f4a460]/10 flex items-center justify-center flex-shrink-0">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f4a460" strokeWidth="2">
@@ -156,12 +161,17 @@ export default function Location() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                 </div>
-                <div>
-                  <p className="text-[#1e3a5f] font-medium text-sm">Résidence Les Pins</p>
+                <div className="flex-1">
+                  <p className="text-[#1e3a5f] font-medium text-sm">6 Avenue de la Méditerranée</p>
                   <p className="text-gray-500 text-xs">La Franqui, 11370 Leucate</p>
                 </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f4a460" strokeWidth="2" className="flex-shrink-0">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
