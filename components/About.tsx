@@ -108,17 +108,12 @@ export default function About() {
               ))}
             </div>
 
-            {/* 2025 Badge */}
+            {/* Équipements */}
             <div
               className={`bg-gradient-to-r from-[#1e3a5f] to-[#2a4a73] rounded-xl p-6 text-white transition-all duration-1000 delay-700 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="bg-[#f4a460] text-[#1e3a5f] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-                  Nouveau 2025
-                </span>
-              </div>
               <div className="flex flex-wrap gap-6">
                 <div className="flex items-center gap-2">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
