@@ -28,7 +28,10 @@ export default function Hero() {
       </div>
 
       {/* Navigation */}
-      <nav className={`absolute top-0 left-0 right-0 z-20 flex justify-between items-center px-6 md:px-12 py-6 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+      <nav
+        className={`absolute top-0 left-0 right-0 z-20 flex justify-between items-center px-6 md:px-12 py-6 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}
+        style={{ textShadow: '0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 10px rgba(0, 0, 0, 0.5)' }}
+      >
         <span className="font-display text-white text-xl md:text-2xl tracking-wide">
           Studio La Franqui
         </span>
