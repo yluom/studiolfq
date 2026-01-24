@@ -24,7 +24,7 @@ const infoItems = [
       </svg>
     ),
     title: 'Règles de la résidence',
-    content: 'Résidence calme et familiale. Respect du voisinage après 22h. Animaux non admis dans les espaces communs.',
+    content: 'Résidence calme et familiale. Respect du voisinage après 22h. Animaux non admis.',
     highlight: null,
   },
   {
@@ -36,8 +36,8 @@ const infoItems = [
       </svg>
     ),
     title: 'Accès au studio',
-    content: 'Ascenseur disponible 24h/24. Le studio se situe au 3ème étage. Instructions détaillées envoyées avant votre arrivée.',
-    highlight: '3ème étage',
+    content: 'Ascenseur disponible 24h/24. Le studio se situe au 2e étage. Instructions détaillées envoyées avant votre arrivée.',
+    highlight: '2e étage',
   },
 ];
 

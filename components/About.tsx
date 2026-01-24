@@ -83,7 +83,7 @@ export default function About() {
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Niché au cœur d&apos;une résidence paisible, ce studio de <strong>30m²</strong> vous offre
-              une vue imprenable sur la mer et un accès direct à l&apos;une des plus belles
+              une petite vue mer et un accès direct à l&apos;une des plus belles
               plages de la côte Audoise. Profitez du <strong>balcon ombragé par les pins</strong> pour
               des moments de détente uniques, bercé par le chant des cigales.
             </p>
@@ -108,17 +108,12 @@ export default function About() {
               ))}
             </div>
 
-            {/* 2025 Badge */}
+            {/* Équipements */}
             <div
               className={`bg-gradient-to-r from-[#1e3a5f] to-[#2a4a73] rounded-xl p-6 text-white transition-all duration-1000 delay-700 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="bg-[#f4a460] text-[#1e3a5f] text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
-                  Nouveau 2025
-                </span>
-              </div>
               <div className="flex flex-wrap gap-6">
                 <div className="flex items-center gap-2">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

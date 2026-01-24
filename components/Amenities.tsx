@@ -66,6 +66,17 @@ const amenities = [
   {
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <circle cx="12" cy="12" r="5" />
+        <circle cx="12" cy="12" r="2" />
+      </svg>
+    ),
+    title: 'Lave-linge',
+    description: 'Machine à laver',
+  },
+  {
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8">
         <path d="M6 19v-8l6-5 6 5v8a1 1 0 0 1-1 1h-4v-5h-2v5H7a1 1 0 0 1-1-1Z" />
         <path d="M9 3v2M15 3v2M10 13h4" />
       </svg>
