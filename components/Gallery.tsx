@@ -167,7 +167,7 @@ export default function Gallery() {
               e.stopPropagation();
               prevImage();
             }}
-            className="absolute left-4 md:left-8 text-white/70 hover:text-white transition-colors p-2"
+            className="absolute left-4 md:left-8 text-white/70 hover:text-white transition-colors p-2 z-10"
             aria-label="Image précédente"
           >
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -180,7 +180,7 @@ export default function Gallery() {
               e.stopPropagation();
               nextImage();
             }}
-            className="absolute right-4 md:right-8 text-white/70 hover:text-white transition-colors p-2"
+            className="absolute right-4 md:right-8 text-white/70 hover:text-white transition-colors p-2 z-10"
             aria-label="Image suivante"
           >
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
