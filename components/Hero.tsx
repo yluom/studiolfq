@@ -63,13 +63,19 @@ export default function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className={`mt-6 text-lg md:text-xl text-white/90 font-light tracking-wide transition-all duration-1000 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <p
+          className={`mt-6 text-lg md:text-xl text-white/90 font-light tracking-wide transition-all duration-1000 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+          style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.6)' }}
+        >
           Studio à 50m de la mer – La Franqui
         </p>
 
         {/* Rating */}
-        <div className={`mt-8 flex items-center gap-3 transition-all duration-1000 delay-900 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="flex gap-1">
+        <div
+          className={`mt-8 flex items-center gap-3 transition-all duration-1000 delay-900 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+          style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.6)' }}
+        >
+          <div className="flex gap-1" style={{ filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5))' }}>
             {[...Array(4)].map((_, i) => (
               <svg
                 key={i}
@@ -104,6 +110,7 @@ export default function Hero() {
         <a
           href="#a-propos"
           className={`mt-12 group flex items-center gap-2 text-white/80 text-sm tracking-wider uppercase hover:text-[#f4a460] transition-all duration-1000 delay-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+          style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.6)' }}
         >
           <span>Découvrir</span>
           <svg

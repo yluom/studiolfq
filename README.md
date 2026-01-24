@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Studio La Franqui
 
-## Getting Started
+Landing page pour un studio de vacances en bord de mer à La Franqui, France.
 
-First, run the development server:
+## Aperçu
+
+Site vitrine statique présentant un studio de 30m² avec vue mer, situé à 50m de la plage de La Franqui (Leucate, Aude). Le site est conçu pour attirer les voyageurs et les rediriger vers la réservation Airbnb.
+
+## Stack technique
+
+- **Framework** : Next.js 16 (export statique)
+- **UI** : React 19
+- **Styling** : Tailwind CSS v4
+- **Langage** : TypeScript
+
+## Installation
+
+```bash
+npm install
+```
+
+## Développement
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le serveur de développement démarre sur http://localhost:3001
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Génère un export statique dans le dossier `out/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Structure du projet
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+├── app/
+│   ├── page.tsx          # Page principale
+│   ├── layout.tsx        # Layout avec métadonnées
+│   └── globals.css       # Styles globaux Tailwind
+├── components/
+│   ├── Hero.tsx          # Section hero avec image de fond
+│   ├── About.tsx         # Présentation du studio
+│   ├── Gallery.tsx       # Galerie photos avec lightbox
+│   ├── Amenities.tsx     # Équipements disponibles
+│   ├── Location.tsx      # Localisation et carte
+│   ├── Info.tsx          # Informations pratiques
+│   └── Footer.tsx        # Pied de page
+├── public/
+│   └── images/           # Photos du studio
+└── CLAUDE.md             # Instructions pour Claude Code
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Sections
 
-## Deploy on Vercel
+| Ancre | Section |
+|-------|---------|
+| `#a-propos` | Présentation du studio |
+| `#galerie` | Galerie photos |
+| `#equipements` | Liste des équipements |
+| `#localisation` | Carte et adresse |
+| `#infos` | Informations pratiques |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Fonctionnalités
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Design responsive (mobile, tablette, desktop)
+- Animations au scroll (Intersection Observer)
+- Galerie avec lightbox et navigation clavier
+- Bouton de réservation Airbnb flottant
+- Optimisé pour le SEO
+
+## Licence
+
+Projet privé.

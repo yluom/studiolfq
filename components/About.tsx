@@ -91,7 +91,7 @@ export default function About() {
             {/* Features List */}
             <div className="space-y-4 mb-10">
               {[
-                { icon: '🌊', text: 'Vue mer panoramique' },
+                { icon: '🌊', text: 'Les pieds dans le sable en 2 min' },
                 { icon: '🌲', text: 'Balcon dans les pins, parc arboré' },
                 { icon: '☀️', text: 'Exposition plein sud' },
               ].map((feature, index) => (
