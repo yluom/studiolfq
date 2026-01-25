@@ -93,7 +93,7 @@ export default function About() {
               {[
                 { icon: '🌊', text: 'Les pieds dans le sable en 2 min' },
                 { icon: '🌲', text: 'Balcon dans les pins, parc arboré sécurisé' },
-                { icon: '🌅', text: 'Exposition nord-est' },
+                { icon: '🌅', text: 'Exposition nord-est, lever de soleil sur la mer' },
               ].map((feature, index) => (
                 <div
                   key={index}
