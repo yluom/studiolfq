@@ -54,7 +54,7 @@ export default function About() {
             {/* Floating badge */}
             <div className="absolute -bottom-6 -right-6 md:bottom-8 md:-right-8 bg-white rounded-xl p-6 shadow-xl">
               <div className="text-center">
-                <span className="block font-display text-4xl text-[#1e3a5f]">30</span>
+                <span className="block font-display text-4xl text-[#1e3a5f]">35</span>
                 <span className="text-sm text-gray-500 uppercase tracking-wider">m²</span>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Niché au cœur d&apos;une résidence paisible, ce studio de <strong>30m²</strong> vous offre
+              Niché au cœur d&apos;une résidence paisible, ce studio de <strong>35m²</strong> vous offre
               une petite vue mer et un accès direct à l&apos;une des plus belles
               plages de la côte Audoise. Profitez du <strong>balcon ombragé par les pins</strong> pour
               des moments de détente uniques, bercé par le chant des cigales.
@@ -92,8 +92,8 @@ export default function About() {
             <div className="space-y-4 mb-10">
               {[
                 { icon: '🌊', text: 'Les pieds dans le sable en 2 min' },
-                { icon: '🌲', text: 'Balcon dans les pins, parc arboré' },
-                { icon: '☀️', text: 'Exposition plein sud' },
+                { icon: '🌲', text: 'Balcon dans les pins, parc arboré sécurisé' },
+                { icon: '🌅', text: 'Exposition nord-est' },
               ].map((feature, index) => (
                 <div
                   key={index}

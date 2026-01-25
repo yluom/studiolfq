@@ -41,7 +41,7 @@ const amenities = [
       </svg>
     ),
     title: 'Cuisine équipée',
-    description: 'Nespresso, induction, lave-vaisselle',
+    description: 'Induction, micro-ondes, lave-vaisselle',
   },
   {
     icon: (
@@ -94,6 +94,27 @@ const amenities = [
     ),
     title: 'Sèche-cheveux',
     description: 'Salle de bain équipée',
+  },
+  {
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8">
+        <rect x="4" y="4" width="16" height="16" rx="2" />
+        <path d="M4 14h16M8 4v10M16 4v10" />
+        <path d="M8 17h2M14 17h2" />
+      </svg>
+    ),
+    title: 'Sèche-serviette',
+    description: 'Serviettes chaudes',
+  },
+  {
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8">
+        <path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16" />
+        <path d="M5 10h14M8 6v0M8 14v4" />
+      </svg>
+    ),
+    title: 'Aspirateur',
+    description: 'Pour votre confort',
   },
 ];
 
@@ -179,16 +200,6 @@ export default function Amenities() {
           ))}
         </div>
 
-        {/* Additional note */}
-        <div
-          className={`mt-12 text-center transition-all duration-1000 delay-700 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <p className="text-gray-500 text-sm">
-            <span className="text-[#f4a460]">+</span> Aspirateur disponible pour votre confort
-          </p>
-        </div>
       </div>
     </section>
   );
