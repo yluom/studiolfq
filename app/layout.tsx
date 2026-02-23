@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -48,6 +49,7 @@ export default function RootLayout({
         {children}
         {/* Subtle grain overlay for texture */}
         <div className="grain-overlay" aria-hidden="true" />
+        <Analytics />
       </body>
     </html>
   );
